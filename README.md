@@ -1,6 +1,6 @@
 # CRUD DE AGENDA (PHP)
 <p align="justify">
-Este projeto é um sistema de agenda CRUD desenvolvido em HTML5, CSS3, PHP, PDO, MySQL e Bootstrap. O sistema permite que os usuários criem, leiam, atualizem e excluam eventos em uma agenda.</p>
+Este projeto é um sistema de agenda CRUD desenvolvido em HTML5, CSS3, PHP, PDO (MySQL) e Bootstrap. O sistema permite que os usuários criem, leiam, atualizem e excluam eventos em uma agenda.</p>
 
 <p align="justify">O sistema é desenvolvido em uma arquitetura MVC, com separação clara entre a apresentação, a lógica de negócios e o acesso a dados. O front-end é construído com HTML5, CSS3 e Bootstrap, enquanto o back-end é desenvolvido em PHP usando PDO para acessar o banco de dados MySQL. </p>
 
