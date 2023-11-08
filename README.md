@@ -1,4 +1,4 @@
-# Agenda
+# Agenda de Contatos
 <p align="justify">
 Este projeto é um sistema de agenda CRUD desenvolvido em HTML5, CSS3, PHP, PDO (MySQL) e Bootstrap. O sistema permite que os usuários criem, leiam, atualizem e excluam eventos em uma agenda.</p>
 
