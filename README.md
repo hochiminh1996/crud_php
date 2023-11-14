@@ -7,4 +7,3 @@ Este projeto é um sistema de agenda CRUD desenvolvido em HTML5, CSS3, PHP, PDO 
 <p align="justify">O sistema é simples e fácil de usar. Os usuários podem criar eventos, visualizar uma lista de eventos, atualizar eventos e excluir eventos. O sistema está licenciado sob a licença MIT, o que permite que seja usado e modificado livremente.</p>
 
 
-Aguardando...
