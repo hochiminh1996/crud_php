@@ -32,7 +32,7 @@
                             <td scope="row"><?=$v['observations'];?></td>
                             <td class="actions">
                                 <!-- os icones -->
-                                <a href="<?=$BASE_URL?>process.php"><i class="fas fa-eye check-icon"  title="Visualizar"></i></a>
+                                <a href="<?=$BASE_URL?>show.php?id=<?=$v['id'];?>"><i class="fas fa-eye check-icon"  title="Visualizar"></i></a>
                                 <a href=""><i class="far fa-edit edit-icon"  title="Editar"></i></a>
                                 
                                 <!-- delete icon-->

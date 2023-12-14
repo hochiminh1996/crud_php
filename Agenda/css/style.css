@@ -66,7 +66,6 @@ body{
     padding: 0;
 }
 
-
 #empty-list-text{
     text-align: center;
 }
@@ -85,3 +84,20 @@ body{
 .call-id{
     font-weight: bold;
 }
+
+
+/* SHOW: MOSTRANDO O CONTATO INDIVIDUAL */
+#view-contact-container{
+    max-width: 500px;
+    margin: 0 auto;
+    /* border:1px solid black; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.bold{
+    font-weight: bold;
+}
+
