@@ -4,3 +4,84 @@ body{
     /* background-color: #ccc; */
 }
 
+#main-title{
+    text-align: center;
+    margin: 15px 0px 30px;
+}
+
+/* home css */
+#contacts-table{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contacts-table thead{
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+}
+
+#contacts-table thead th{
+    background-color: #09f;
+    color:white;
+}
+
+#contacts-table tr td {
+    text-align: center;
+    /* border:1px solid red; */
+}
+
+.actions{
+    text-align: right;
+    width: 150px;
+}
+
+/* icones */
+.actions i{
+    font-size: 18px;
+    margin-right: 5px;
+    /* border:1px solid red; */
+}
+
+/* cor do icone do olho */
+.check-icon{
+    color: #1e7e34;
+}
+
+/* cor do icone de edit */
+.edit-icon{
+    color: #09f;
+}
+
+/* cor do delete */
+.delete-icon{
+    color: red;
+}
+
+/* o btn delete */
+.delete-btn{
+    border:none;
+    text-align: center;
+    background-color: #fff;
+    padding: 0;
+}
+
+
+#empty-list-text{
+    text-align: center;
+}
+
+#msg{
+    color: #155724;
+    background-color: #d4edda;
+    border:1px solid #c3e6cb;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.call-id{
+    font-weight: bold;
+}
