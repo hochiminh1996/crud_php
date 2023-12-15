@@ -31,9 +31,14 @@ body{
     color:white;
 }
 
-#contacts-table tr td {
+#contacts-table tbody tr {
     text-align: center;
-    /* border:1px solid red; */
+    opacity: .8;
+}
+
+#contacts-table tbody tr:hover{
+    opacity: 1;
+    
 }
 
 .actions{
@@ -156,4 +161,12 @@ body{
 #create-form, #edit-form{
     max-width: 500px;
     margin: 0 auto;
+}
+
+
+/* mobilebasic */
+@media(max-width:480px) {
+    #home-link{
+        display: none;
+    }
 }

@@ -33,7 +33,7 @@
                             <td class="actions">
                                 <!-- os icones -->
                                 <a href="<?=$BASE_URL?>show.php?id=<?=$v['id'];?>"><i class="fas fa-eye check-icon"  title="Visualizar"></i></a>
-                                <a href=""><i class="far fa-edit edit-icon"  title="Editar"></i></a>
+                                <a href="<?=$BASE_URL?>edit.php?id=<?=$v['id'];?>"><i class="far fa-edit edit-icon"  title="Editar"></i></a>
                                 
                                 <!-- delete icon-->
                                 <button type="submit" class="delete-btn" title="Deletar"><i class="fas fa-times delete-icon"></i></button>

@@ -32,8 +32,28 @@ if (!empty($data)) {
             echo "Erro de inserção de registros -> " . $e->getMessage() . "<br>";
         }
     } else if ($data['type'] === "edit") {
-    }
+        $name = $_POST['name'];
+        $phone = $_POST['phone'];
+        $observations = $_POST['observations'];
+        $id = $_POST['id'];
 
+        $stmt = $conn->prepare("UPDATE contacts SET name =:name, phone = :phone, observations = :observations WHERE id = :id");
+
+        $stmt->bindParam(":name", $name);
+        $stmt->bindParam(":phone", $phone);
+        $stmt->bindParam(":observations", $observations);
+        $stmt->bindParam(":id", $id);
+
+        try{
+            $stmt->execute();
+            $_SESSION['msg'] = "Contato atualizado com sucesso.";
+        }catch(Exception $e){
+            echo "Erro ao inserir dados -> ".$e->getMessage()."<br>";
+        }
+
+
+
+    }
     header("Location:../index.php");
 } else {
     // se não tiver dados enviado por post. Ou seja, é apenas consultas de individuais ou retorno de todos os registros
