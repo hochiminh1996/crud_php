@@ -1,6 +1,6 @@
 <?php
     include_once("config/url.php");
-    include_once("config/process.php");//processamento
+    include_once("config/process.php");//processamento dos dados
 
 
     //limpa msg

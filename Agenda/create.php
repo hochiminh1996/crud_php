@@ -8,7 +8,7 @@ include_once("templates/header.php");
 
     <form id="create-form" action="<?= $BASE_URL ?>config/process.php" method="post">
         <!-- processamento no process -->
-        <input type="hidden" type="create">
+        <input type="hidden" name="type" value="create">
         <!-- input para verificar o tipo de solicitação que está sendo feita pelo form. No caso, uma criação -->
         <div class="form-group">
             <label for="name">Nome do contato:</label>
