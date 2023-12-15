@@ -9,6 +9,11 @@ body{
     margin: 15px 0px 30px;
 }
 
+#main-title-show{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
 /* home css */
 #contacts-table{
     max-width: 800px;
@@ -93,11 +98,30 @@ body{
     /* border:1px solid black; */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px 15px;
     box-sizing: border-box;
+    margin-top: 5px;
 }
 
 .bold{
     font-weight: bold;
 }
 
+
+#back-link-container #back-link{
+    text-align: center;
+    border:1px solid #09f;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#back-link-container #back-link:hover{
+    background-color: #09f;
+    border:1px solid #09f;
+    color: white;
+    transition: all linear .5s;
+
+}
