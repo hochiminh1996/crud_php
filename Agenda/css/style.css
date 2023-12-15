@@ -48,6 +48,14 @@ body{
     /* border:1px solid red; */
 }
 
+.actions i{
+    opacity: .8;
+}
+
+.actions i:hover{
+    opacity: 1;
+}
+
 /* cor do icone do olho */
 .check-icon{
     color: #1e7e34;
@@ -124,4 +132,28 @@ body{
     color: white;
     transition: all linear .5s;
 
+}
+
+/* btn submit do create */
+.btn_submit{
+    width: 100%;
+    padding: 5px;
+    margin:5px 0px;
+    background-color: white;
+    border: 1px solid #09f;
+    border-radius: 5px;
+    color: #09f;
+}
+
+
+.btn_submit:hover{
+    background-color: #09f;
+    border:1px solid #09f;
+    color: white;
+    transition: all linear .5s;
+}
+
+#create-form, #edit-form{
+    max-width: 500px;
+    margin: 0 auto;
 }
