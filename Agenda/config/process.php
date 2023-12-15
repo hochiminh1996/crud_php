@@ -32,6 +32,7 @@ if (!empty($data)) {
             echo "Erro de inserção de registros -> " . $e->getMessage() . "<br>";
         }
     } else if ($data['type'] === "edit") {
+        // EDITANDO DADOS
         $name = $_POST['name'];
         $phone = $_POST['phone'];
         $observations = $_POST['observations'];
@@ -52,6 +53,19 @@ if (!empty($data)) {
         }
 
 
+
+    }else if($data['type'] === "delete"){
+    //    DELETAR UM REGISTRO
+        $id = $_POST['id'];
+        $stmt = $conn->prepare("DELETE FROM contacts WHERE id=:id");
+        $stmt->bindParam(":id", $id);
+
+        try{
+            $stmt->execute();
+            $_SESSION['msg'] = "Contato deletado #".$id." com sucesso.";
+        }catch(Exception $e){
+            echo "Erro ao deletar dados -> ".$e->getMessage()."<br>";
+        }
 
     }
     header("Location:../index.php");
